@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dube's Multimedia Course Application</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: rgb(10, 31, 68); /* Dark navy blue background */
+            color: white; /* Text color */
+            font-family: 'Montserrat', sans-serif; /* Font style */
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            margin: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline; /* Horizontal menu */
+            margin-right: 15px;
+        }
+        a {
+            color: #FF8C00; /* Orange color for links */
+            text-decoration: none; /* Remove underline */
+            font-weight: 700; /* Bold links */
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+        a:hover {
+            color: white; /* Change color on hover */
+        }
+        .video-container {
+            display: flex; /* Use flexbox for layout */
+            flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+            margin: 10px 0; /* Space above and below the video container */
+        }
+        .video-container iframe {
+            margin-right: 10px; /* Space between videos */
+            width: 100%; /* Set width to 100% for responsiveness */
+            max-width: 560px; /* Maximum width of each iframe */
+        }
+        /* About Me Section Styles */
+        #about {
+            font-family: 'Roboto', sans-serif; /* Use Roboto for the About Me section */
+        }
+        #about h2 {
+            font-size: 2em; /* Larger size for headings */
+            font-weight: 700; /* Bold for emphasis */
+            margin-bottom: 10px; /* Space below the heading */
+        }
+        #about p {
+            font-size: 1.1em; /* Slightly larger body text */
+            line-height: 1.6; /* Improved readability */
+        }
+        #about ul {
+            list-style-type: disc; /* Add bullets for the list */
+            padding-left: 20px; /* Indentation for the list */
+        }
+        #about ul li {
+            margin-bottom: 10px; /* Space between list items */
+            font-size: 1em; /* Body text size */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dube's Multimedia Course Application</h1>
+        <p>Passionate about multimedia design and eager to create impactful content.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, my name is Nkosana Dube, a 19-year-old multimedia enthusiast with a strong background in video editing and creating animations. I am passionate about:</p>
+        <ul>
+            <li><strong>Video Editing</strong>: I’ve built a solid foundation in video editing that allows me to craft compelling visual narratives. Whether it’s piecing together footage or adding special effects, I love using various editing software to create high-quality content that truly engages and captivates audiences.</li>
+            <li><strong>Web Development (HTML)</strong>: I possess HTML skills that enable me to design and build engaging and responsive websites. While I’m not nearly perfect at it yet, I understand the fundamentals of creating web pages and can create visually appealing sites that ensure a user-friendly experience while effectively showcasing my work.</li>
+            <li><strong>Animation Creation</strong>: My journey in animation has been incredibly rewarding, allowing me to bring stories to life through motion graphics and two-dimensional animations. I enjoy experimenting with different styles and techniques, always seeking new ways to enhance the visual appeal of my projects. I’ve honed my skills by practicing through YouTube tutorials and learning from various online courses. As a result, I’m able to produce animations that not only look great but also evoke emotion and retain attention, making each piece resonate with viewers.</li>
+            <li><strong>Design Theory and Practice</strong>: I’ve developed an appreciation for design principles and practices, which help me critically assess my work and identify areas for improvement. This knowledge not only strengthens my ability to create aesthetically pleasing designs but also ensures they are functional and effective.</li>
+        </ul>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of my recent works:</p>
+        <ul>
+            <li><a href="https://drive.google.com/drive/folders/15g-JX3rjSgSSAKQwOLJJWq0prfCzX_9E?usp=drive_link">Recent animations and video edits</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1MdyufoaFfSL6eJ6Msadz4tpM6kX1aMTN?usp=drive_link">Project Title 1</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1OdL1a1KIf23DQR9mkFKb5nZQjxJj0MOZ?usp=drive_link">Project Title 2</a></li>
+        </ul>
+        <h3>Animations Created</h3>
+        <div class="video-container">
+            <iframe height="315" src="https://www.youtube.com/embed/Bbvrs6vYYIk" frameborder="0" allowfullscreen></iframe>
+            <iframe height="315" src="https://www.youtube.com/embed/or1LmJ_f2Rk" frameborder="0" allowfullscreen></iframe>
+            <iframe height="315" src="https://www.youtube.com/embed/px29SBxtURU" frameborder="0" allowfullscreen></iframe>
+            <iframe height="315" src="https://www.youtube.com/embed/qPY8js-lfyc" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+        <section id="education">
+    <h2>Education</h2>
+    <p>I have completed my high school education and I am currently upgrading my marks to at least meet the minimum requirements for university. Over the past  year, I have dedicated myself to studying hard and  honing my skills in video editing and animation creation. My passion for these areas has allowed me to develop a solid foundation, enabling me to produce engaging visual content that resonates with audiences.</p>
+    <p>Through various projects, I have explored different editing techniques and animation styles, continually seeking to push the boundaries of my creativity. However, I want to emphasize that my intention is not to master every aspect of multimedia design before entering university. I believe that learning is a continuous process, and there is immense value in the structured education that your program offers.</p>
+    <p>By not trying to learn everything independently, I leave room for growth and discovery, allowing the university to teach me new skills and concepts that will enrich my understanding of the field. I am eager to learn from experienced faculty members and collaborate with fellow students, as I believe that this collective learning experience will enhance my journey as a multimedia designer.</p>
+</section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to reach out, feel free to email me at: <a href="mailto:nkosanadube525@gmail.com">nkosanadube525@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dube. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
